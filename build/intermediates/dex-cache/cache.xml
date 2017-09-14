@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2eb59fa8c9c50ef0fac75fa6eeca4282bc108ad5">
+        <dex dex="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f2b2a5cd4c360a8b21972a4460ad8743c03b3f98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3cd106534598a6841e5a9e74f5a5d2741d755a22\classes.dex" />
+    </item>
+
+</items>
