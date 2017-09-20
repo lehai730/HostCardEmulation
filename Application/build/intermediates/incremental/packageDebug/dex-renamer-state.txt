@@ -1,4 +1,4 @@
-#Wed Sep 13 13:36:40 AEST 2017
+#Wed Sep 20 18:36:24 AEST 2017
 base.0=C\:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3cd106534598a6841e5a9e74f5a5d2741d755a22
 renamed.1=classes2.dex
 renamed.0=classes.dex

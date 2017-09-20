@@ -6,28 +6,31 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1505384538765"
+    timestamp="1505896582350"
     token="-7450184818489400072"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="606" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="16" />
+        duration="0" />
     <task
         name="verifier"
         duration="0" />
 
     <artifact
-        location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
+        location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\outputs\apk\Application-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -56,19 +59,19 @@
     <artifact
         location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\outputs\apk\Application-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1505384538765"
+        timestamp="1505896582350"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
+            location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\outputs\apk\Application-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -97,9 +100,6 @@
         <artifact
             location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Hai\Desktop\Design 3\CardEmulation\Application\build\outputs\apk\Application-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
