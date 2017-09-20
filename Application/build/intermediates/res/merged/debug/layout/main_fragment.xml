@@ -51,15 +51,16 @@ limitations under the License.
             android:textSize="18dp"
             android:layout_marginTop="40dp"
             />
+
         <EditText
             android:id="@+id/card_account_field"
-            android:width="360dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:width="360dp"
             android:fontFamily="sans-serif-condensed"
-            android:textStyle="bold"
-            android:textSize="42dp"
+            android:inputType="text"
             android:singleLine="true"
-            android:inputType="number" />
+            android:textSize="42dp"
+            android:textStyle="bold" />
     </LinearLayout>
 </FrameLayout>

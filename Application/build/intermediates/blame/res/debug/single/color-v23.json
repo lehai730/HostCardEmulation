@@ -1,17 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
         "source": "C:\\Users\\Hai\\.android\\build-cache\\23dfb6addeae88dc454c6a949b24aa2dcaaac24b\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
@@ -28,16 +16,8 @@
         "source": "C:\\Users\\Hai\\.android\\build-cache\\23dfb6addeae88dc454c6a949b24aa2dcaaac24b\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_tint_switch_track.xml"
-    },
-    {
         "merged": "C:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\Hai\\.android\\build-cache\\23dfb6addeae88dc454c6a949b24aa2dcaaac24b\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
@@ -48,32 +28,12 @@
         "source": "C:\\Users\\Hai\\.android\\build-cache\\23dfb6addeae88dc454c6a949b24aa2dcaaac24b\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
         "merged": "C:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "C:\\Users\\Hai\\.android\\build-cache\\23dfb6addeae88dc454c6a949b24aa2dcaaac24b\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
         "merged": "C:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
         "source": "C:\\Users\\Hai\\.android\\build-cache\\23dfb6addeae88dc454c6a949b24aa2dcaaac24b\\output\\res\\color-v23\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "C:\\Users\\frq05125\\AndroidStudioProjects\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "C:\\Users\\frq05125\\.android\\build-cache\\4d70658326b50618fda2dd66d928e7be9a28614d\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",

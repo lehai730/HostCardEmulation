@@ -1,7 +1,0 @@
-#Wed Sep 20 18:36:24 AEST 2017
-base.0=C\:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3cd106534598a6841e5a9e74f5a5d2741d755a22
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f2b2a5cd4c360a8b21972a4460ad8743c03b3f98\\classes.dex
-base.1=C\:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f2b2a5cd4c360a8b21972a4460ad8743c03b3f98
-file.0=C\:\\Users\\Hai\\Desktop\\Design 3\\CardEmulation\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3cd106534598a6841e5a9e74f5a5d2741d755a22\\classes.dex

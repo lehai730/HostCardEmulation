@@ -46,12 +46,13 @@ public class CardService extends HostApduService {
      * 0xD1,                       NDEF RECORD HEADER MB/ME/CF/1/IL/TNF
      * 0x01,                       TYPE LENGTH
      * 0x07,                       PAYLOAD LENTGH
-     * 'T',                        TYPE
+     * 'T', 0x54                   TYPE
      * 0x02,                       Language length
      * 'e', 'n',                   Language
      * 'T', 'e', 's', 't'          Text
      */
-    private static final byte[] NDEF_MESSAGE = HexStringToByteArray("000DD101095402656E313233343536");
+    private byte[] NDEF_MESSAGE = CreateNDEF();
+
 
     private static final byte[] T4T_NDEF_EMU_APP_Select = HexStringToByteArray("00A4040007D2760000850101");
     private static final byte[] T4T_NDEF_EMU_CC = HexStringToByteArray("000F2000FF00FF0406E10400FF00FF");
@@ -140,25 +141,13 @@ public class CardService extends HostApduService {
             {
                 int offset = (commandApdu[2] << 8) + commandApdu[3];//2 byte into decimal number
                 int length = commandApdu[4];
-
                 Log.i(TAG, "Reading NDEF file offset = " + offset + " length = " + length);
-
-
                 byte[] temp = new byte[length];
 
-
                 System.arraycopy(NDEF_MESSAGE, offset, temp, 0, temp.length);
-                String account = AccountStorage.GetAccount(this); //create a string for account
-                byte[] accountBytes = account.getBytes();
-                Log.i(TAG, "Fetching account number: " + account);//should be 6 characters
-                if(length == 13){
-                    Answer = ConcatArrays(HexStringToByteArray("D101095402656E"),accountBytes,SELECT_OK_SW);
-                }
-                else{
-                    Answer = ConcatArrays(temp, SELECT_OK_SW);
-                }
 
-
+                Log.i(TAG, "New NDEF Message " + ByteArrayToHexString(NDEF_MESSAGE));
+                Answer = ConcatArrays(temp, SELECT_OK_SW);
             }
             else {
                 eT4T_NDEF_EMU_State = NDEF_state.Ready;
@@ -171,6 +160,47 @@ public class CardService extends HostApduService {
         return Answer;
     }
     // END_INCLUDE(processCommandApdu)
+
+    /**
+     * Utility method to build an NDEF message based on account number retreived from account storage.
+     *
+     *
+     * @return byte array, the NDEF message array that we are going to send.
+     */
+    public byte[] CreateNDEF(){
+
+        String account = AccountStorage.GetAccount(this); // Getting text from type in field!!
+        byte[] accountBytes = account.getBytes();
+
+
+        int payloadLength = account.length() + 3;           // Length of account number
+        int NDEFLength = account.length() + 7;
+        String totalLength = Integer.toHexString(NDEFLength);
+        Log.i(TAG, "Account Length Hex: " + totalLength);
+
+
+        //byte[] NDEF_MESSAGE = HexStringToByteArray("000DD101095402656E313233343536");
+        byte[] NDEF_MESSAGE1 = HexStringToByteArray("00");
+
+        if (NDEFLength<=15){
+            NDEF_MESSAGE1 = ConcatArrays(NDEF_MESSAGE1,HexStringToByteArray("0"+totalLength));
+        }
+        else{
+            NDEF_MESSAGE1 = ConcatArrays(NDEF_MESSAGE1,HexStringToByteArray(totalLength));
+        }
+        // NDEF_MESSAGE1 is currently first 4 digits of the NDEF message
+        NDEF_MESSAGE1 = ConcatArrays(NDEF_MESSAGE1,HexStringToByteArray("D101"));
+        if (payloadLength<=15){
+            NDEF_MESSAGE1 = ConcatArrays(NDEF_MESSAGE1,HexStringToByteArray("0"+Integer.toHexString(payloadLength)));
+        }
+        else{
+            NDEF_MESSAGE1 = ConcatArrays(NDEF_MESSAGE1,HexStringToByteArray(Integer.toHexString(payloadLength)));
+        }
+        NDEF_MESSAGE1 = ConcatArrays(NDEF_MESSAGE1,HexStringToByteArray("5402656E"));
+        NDEF_MESSAGE1 = ConcatArrays(NDEF_MESSAGE1,accountBytes);
+
+        return NDEF_MESSAGE1;
+    }
 
     /**
      * Utility method to convert a byte array to a hexadecimal string.
